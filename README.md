@@ -5,8 +5,12 @@ Aplikasi Super Kasir Supermarket untuk melakukan input barang secara mandiri ole
 
 Program ini berfungsi sebagai self-service sistem pembayaran kasir, dimana user dapat melakukan input secara mandiri berupa: nama barang dan jumlah pembelian. User dapat menambah, menghapus, dan mengubah jumlah pembelian daftar belanja yang sudah mereka masukkan. Program ini juga mempunyai fitur diskon, pembelian barang dengan harga tertentu lebih murah, dan juga sistem poin ke member id user.
 
+## Cara menggunakan program
+Download main.py dan ckasir.py ke dalam satu direktori lokal. Kemudian jalankan main.py
+
 ## Alur Kode
 
+![flow_chart](https://user-images.githubusercontent.com/130892412/232321179-5b30f869-121d-421d-b5a6-185bf2d2e452.png)
 
 ## Function
 
