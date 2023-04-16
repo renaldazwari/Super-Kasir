@@ -39,6 +39,8 @@ Pada fungsi ini, user dapat memasukkan member id pada Supermarket. User akan men
 
 ![input_item](https://user-images.githubusercontent.com/130892412/232312879-db021872-808a-4566-a54d-ea6f1198e923.png)
 
+Ketika input yang dimasukkan user tidak sesuai, akan muncul pesan kesalahan.
+
 2. Menampilkan keranjang belanja
 
 ![check_out](https://user-images.githubusercontent.com/130892412/232313023-6100a84c-9a2f-41f2-b149-25b336cebc52.png)
@@ -63,3 +65,8 @@ Pada fungsi ini, user dapat memasukkan member id pada Supermarket. User akan men
 
 ![member_id](https://user-images.githubusercontent.com/130892412/232313339-39132f27-cbb2-4f78-95c8-f4a3ed669f33.png)
 
+## Future Works
+
+1. Masukan input dengan nama barang cukup sulit jika variasi nama barang sangat banyak, dan jumlah barang yang dijual supermarket juga banyak. Input sebaiknya menggunakan kode barang, bukan nama barang.
+
+2. Perlu perbaikan pada fitur member id yang masih belum terhubung pada database sistem, sehingga jumlah poin belum terupdate secara otomatis
