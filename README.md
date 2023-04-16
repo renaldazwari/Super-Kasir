@@ -1,14 +1,14 @@
 # Super-Kasir
 Aplikasi Super Kasir Supermarket untuk melakukan input barang secara mandiri oleh pembeli.
 
-Tujuan
+## Tujuan
 
 Program ini berfungsi sebagai self-service sistem pembayaran kasir, dimana user dapat melakukan input secara mandiri berupa: nama barang dan jumlah pembelian. User dapat menambah, menghapus, dan mengubah jumlah pembelian daftar belanja yang sudah mereka masukkan. Program ini juga mempunyai fitur diskon, pembelian barang dengan harga tertentu lebih murah, dan juga sistem poin ke member id user.
 
-Alur Kode
+## Alur Kode
 
 
-Function
+## Function
 
 Ada 5 function di module ckasir.py:
 1. edit_item
@@ -31,26 +31,35 @@ Fungsi ini dipanggil setelah beli murah. Fungsi diskon akan mengurangi total bel
 
 Pada fungsi ini, user dapat memasukkan member id pada Supermarket. User akan mendapatkan poin sesuai dengan total belanja yang akan diakumulasikan pada member id.
 
-Hasil Test Case
+## Hasil Test Case
 
 1. Menambahkan daftar belanja
 
-foto layar awal
+![main_menu](https://user-images.githubusercontent.com/130892412/232312748-f8ded799-4640-4b9e-a398-a0358b751b84.png)
 
-foto input barang
+![input_item](https://user-images.githubusercontent.com/130892412/232312879-db021872-808a-4566-a54d-ea6f1198e923.png)
 
 2. Menampilkan keranjang belanja
 
-foto check_out
+![check_out](https://user-images.githubusercontent.com/130892412/232313023-6100a84c-9a2f-41f2-b149-25b336cebc52.png)
 
 3. Mengubah daftar belanja
 
-foto edit
+![edit_item](https://user-images.githubusercontent.com/130892412/232313085-d9a4b4b1-da9e-48a6-b0a5-25768268f788.png)
 
 4. Menghapus semua daftar belanja
 
+![delete_all](https://user-images.githubusercontent.com/130892412/232313139-c032ec23-80cf-4b1b-b04c-a862f2283912.png)
+
 5. Memasukkan item khusus beli murah
+
+![beli_murah](https://user-images.githubusercontent.com/130892412/232313227-13a68f62-1ff6-4099-8d04-061587359ae0.png)
 
 6. Mendapatkan diskon
 
+![diskon](https://user-images.githubusercontent.com/130892412/232313278-c8e67359-4076-427c-8555-81868a874dfc.png)
+
 7. Mendapatkan poin belanja
+
+![member_id](https://user-images.githubusercontent.com/130892412/232313339-39132f27-cbb2-4f78-95c8-f4a3ed669f33.png)
+
